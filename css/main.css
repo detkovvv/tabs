@@ -1,0 +1,33 @@
+.tabs{
+	margin: 20px;
+}
+
+.tabs_control {
+	display: inline-block;
+	padding: 3px 10px;
+	background-color: #19365f;
+	color: #fff;
+	text-decoration: none;
+	border-top-left-radius: 10px;
+}
+
+.tabs_control_active {
+	background-color: #1a65ae;	
+}
+
+.tabs_control:hover, 
+.tabs_control:focus {
+	background-color: rgba(26, 101, 174, 0.7);
+	outline: none ;
+}
+
+.tabs_panel {
+	display: none;
+	padding: 10px;
+	background-color: #1a65ae;
+	color: #fff;
+}
+
+.tabs_panel_active {
+	display: block;
+}
